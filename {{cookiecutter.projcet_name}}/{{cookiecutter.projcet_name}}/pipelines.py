@@ -6,6 +6,6 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class {{cookiecutter.object_prefix}}Pipeline(object):
+class {{ cookiecutter.object_prefix }}Pipeline(object):
     def process_item(self, item, spider):
         return item

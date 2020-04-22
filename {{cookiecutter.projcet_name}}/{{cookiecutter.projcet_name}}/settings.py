@@ -9,10 +9,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = '{{cookiecutter.projcet_name}}'
+BOT_NAME = '{{ cookiecutter.projcet_name }}'
 
-SPIDER_MODULES = ['{{cookiecutter.projcet_name}}.spiders']
-NEWSPIDER_MODULE = '{{cookiecutter.projcet_name}}.spiders'
+SPIDER_MODULES = ['{{ cookiecutter.projcet_name }}.spiders']
+NEWSPIDER_MODULE = '{{ cookiecutter.projcet_name }}.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = '{{cookiecutter.projcet_name}} (+http://www.yourdomain.com)'
@@ -48,13 +48,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    '{{cookiecutter.projcet_name}}.middlewares.MySpiderMiddleware': 543,
+#    '{{ cookiecutter.projcet_name }}.middlewares.MySpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 # DOWNLOADER_MIDDLEWARES = {
-#    '{{cookiecutter.projcet_name}}.middlewares.MyDownloaderMiddleware': 543,
+#    '{{ cookiecutter.projcet_name }}.middlewares.MyDownloaderMiddleware': 543,
 # }
 
 # Enable or disable extensions
@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 # ITEM_PIPELINES = {
-#    '{{cookiecutter.projcet_name}}.pipelines.MyPipeline': 300,
+#    '{{ cookiecutter.projcet_name }}.pipelines.MyPipeline': 300,
 # }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

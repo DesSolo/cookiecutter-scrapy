@@ -1,0 +1,6 @@
+{
+	"projcet_name": "parser",
+	"object_prefix": "{{ cookiecutter.projcet_name.title() }}",
+	"domain": "example.com",
+	"protocol": ["https", "http"]
+}

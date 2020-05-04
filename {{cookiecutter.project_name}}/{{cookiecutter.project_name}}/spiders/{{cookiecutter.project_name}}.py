@@ -4,7 +4,7 @@ from ..items import {{ cookiecutter.object_prefix }}Item
 
 
 class {{ cookiecutter.object_prefix }}Spider(scrapy.Spider):
-    name = '{{cookiecutter.projcet_name}}'
+    name = '{{cookiecutter.project_name}}'
     allowed_domains = ['{{cookiecutter.domain}}']
     start_urls = ['{{cookiecutter.protocol}}://{{cookiecutter.domain}}']
 

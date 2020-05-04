@@ -5,10 +5,10 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+from scrapy import Item, Field
 
 
-class {{ cookiecutter.object_prefix }}Item(scrapy.Item):
+class {{ cookiecutter.object_prefix }}Item(Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
+    # name = Field()
     pass
